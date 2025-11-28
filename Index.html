@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Star Wars: La Saga</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <a href="#contenido-principal" class="saltar-contenido">Saltar al contenido principal</a>
+
+    <header>
+        <div class="logo">STAR WARS</div>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="escenas.html">Escenas Icónicas</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido-principal">
+        <h1>Bienvenidos a una Galaxia muy lejana</h1>
+        
+        <section>
+            <h2>La historia que cambió el cine</h2>
+            <p>Star Wars es una franquicia de ópera espacial épica estadounidense, creada por George Lucas, que comenzó con la película homónima de 1977 y se convirtió rápidamente en un fenómeno de la cultura pop mundial. La franquicia se ha expandido a través de varias películas y otros medios.</p>
+            <p>La trama se sitúa en una galaxia ficticia donde coexisten humanos y diversas especies alienígenas. Es conocida por su lucha entre el bien y el mal, representada por los Jedi y los Sith, quienes utilizan un campo de energía metafísico llamado "La Fuerza".</p>
+            <img src="tu-imagen-espacio.jpg" alt="" class="img-decorativa">
+            
+            <p>Para conocer más sobre el impacto cultural, puedes <a href="https://www.starwars.com" target="_blank">visitar el sitio oficial de Star Wars</a>.</p>
+        </section>
+
+        <section>
+            <h2>Únete a la Fuerza</h2>
+            <p>Ya sea que elijas el lado luminoso o el lado oscuro, la galaxia necesita nuevos reclutas. Mantente informado sobre las novedades de la saga, próximos lanzamientos y eventos especiales completando nuestro formulario.</p>
+            <p>Al registrarte, recibirás noticias exclusivas directamente desde Coruscant. Asegúrate de proporcionar tus datos de contacto correctamente para que nuestros droides puedan procesar tu solicitud.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Formulario de Reclutamiento</legend>
+                    
+                    <label for="nombre">Nombre Completo (Requerido):</label>
+                    <input type="text" id="nombre" name="nombre" required autocomplete="name">
+                    
+                    <label for="email">Correo Electrónico (Requerido):</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                    
+                    <label for="mensaje">Tu mensaje o lealtad (Requerido):</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    
+                    <button type="submit">Enviar datos</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contacto: info@galaxiaejemplo.com</p>
+        <p><a href="personajes.html">Ver lista completa de héroes y villanos</a>.</p>
+        <p>&copy; 2025 Proyecto Educativo Star Wars.</p>
+    </footer>
+</body>
+</html>
