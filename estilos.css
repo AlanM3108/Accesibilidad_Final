@@ -102,6 +102,15 @@ img {
     margin-right: auto;
 }
 
+.img-decorativa {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 900px;
+    height: 420px; /* Altura fija para asegurar visibilidad */
+    object-fit: cover; /* Recorta suavemente si el aspecto difiere */
+    display: block;
+    margin: 20px auto;
+}
+
 /* Formulario */
 form {
     background-color: #2a2a2a;
